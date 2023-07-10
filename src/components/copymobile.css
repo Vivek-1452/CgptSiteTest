@@ -1,0 +1,21 @@
+.copyMobContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  background-color: #ebbe00;
+}
+
+.copyMobile {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .copyMobile {
+    display: block !important;
+  }
+}
+
+.copyMob1 {
+  display: flex;
+  height: max-content;
+}
